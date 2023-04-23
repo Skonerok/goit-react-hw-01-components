@@ -1,0 +1,41 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 10px;
+    width: 180px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.status {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(26, 25, 25);
+}
+
+.status__true {
+    composes: status;
+background-color: rgb(24, 235, 24);;
+}
+
+.status__false {
+    composes: status;
+    background-color:rgb(250, 5, 5);
+}
+
+.avatar {
+padding: 10px;
+}
+
+.name{
+font-size: 18px;
+    font-weight: 600;
+}
