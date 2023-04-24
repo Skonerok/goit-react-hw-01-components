@@ -1,5 +1,5 @@
 .transactionHistory {
-    width: 70%;
+    width: 50%;
     margin: 50px auto;
 }
 
@@ -10,7 +10,7 @@ thead {
 
 tr {
   text-align: center;
-  height: 40px;
+  height: 30px;
 }
 
 tr:nth-child(2n) {

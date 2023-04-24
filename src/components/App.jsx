@@ -29,7 +29,7 @@ export const App = () => {
       />
 
       <TransactionHistory
-        transactions={transactions}
+        items={transactions}
       />
     </div>
   );
